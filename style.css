@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #ffeb3b;
+}
+
+#menuBar {
+  background-color: #ffc400;
+  text-align: center;
+  height: 25px;
+}
+
+#menuBar button {
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 600;
+  padding: 0 10px;
+  letter-spacing: 2px;
+  transition-property: background;
+  transition-duration: 800ms;
+}
+
+#menuBar button:hover {
+  cursor: pointer;
+  background: #fe6c08;
+}
+
+#gameStatus {
+  display: inline-block;
+  width: 20%;
+}
+
+header {
+  text-transform: uppercase;
+}
+
+#header {
+  background-color: #ff6d00;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 200ms;
+}
+
+.circles {
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.6%;
+  border-radius: 5%;
+  transition-property: background;
+  transition-property: transform;
+  transition-duration: 200ms;
+}
+
+.circles:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  transform: scale(1.1);
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#menuBar .selected {
+  background-color: #fe6c08;
+}
